@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/YOUR-USERNAME/YOUR-REPO.git'
+                git 'https://github.com/piyusharya1144-ux/devops-cicd-project.git'
             }
         }
         stage('Build Docker Image') {
